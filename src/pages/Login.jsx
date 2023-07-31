@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import GoogleIcon from "../assets/icons/GoogleIcon";
 import { Link, useNavigate } from "react-router-dom";
-import {
-  GoogleAuthProvider,
-  signInWithEmailAndPassword,
-  signInWithPopup,
-} from "firebase/auth";
+import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase-config";
 
 const Login = ({ setUserNameLogin, logout }) => {
@@ -35,25 +31,6 @@ const Login = ({ setUserNameLogin, logout }) => {
     login();
   };
 
-  const provider = new GoogleAuthProvider();
-  const signInWithGoogle = () => {
-    signInWithPopup(auth, provider)
-      .then((result) => {
-        console.log(result.user.displayName);
-        console.log(result.user.email);
-        console.log(result.user.photoURL);
-        localStorage.setItem("keyName", result.user.displayName);
-        localStorage.setItem("keyEMail", result.user.email);
-        localStorage.setItem("keyPhoto", result.user.photoURL);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  };
-  const onClickGoogle = () => {
-    e.preventDefault();
-    signInWithGoogle();
-  };
   return (
     <div className="overflow-hidden flex-1 h-screen justify-center items-center bg-[#23242a]">
       <div
@@ -95,7 +72,6 @@ const Login = ({ setUserNameLogin, logout }) => {
           </button>
 
           <button
-            onClick={onClickGoogle}
             type="button"
             className="btn-danger flex justify-between items-center"
           >
