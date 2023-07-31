@@ -50,7 +50,10 @@ const Login = ({ setUserNameLogin, logout }) => {
         console.log(error);
       });
   };
-
+  const onClickGoogle = () => {
+    e.preventDefault();
+    signInWithGoogle();
+  };
   return (
     <div className="overflow-hidden flex-1 h-screen justify-center items-center bg-[#23242a]">
       <div
@@ -92,7 +95,7 @@ const Login = ({ setUserNameLogin, logout }) => {
           </button>
 
           <button
-            onClick={signInWithGoogle}
+            onClick={onClickGoogle}
             type="button"
             className="btn-danger flex justify-between items-center"
           >
