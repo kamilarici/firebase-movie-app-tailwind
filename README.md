@@ -13,8 +13,8 @@ If you enjoyed exploring this project, I invite you to check out my other projec
 Feel free to explore these projects at your convenience. Each one offers a unique experience and showcases different aspects of my skills and interests.
 
 ## Author
--Linkedin - [@kamilarici]([https://www.linkedin.com/in/kamil-arici?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7uRMaE%2FdTHeS9fFVNiCjDw%3D%3D])
-- Githup - [@kamilaricil]([https://github.com/AliDurul](https://github.com/kamilarici))
+-Linkedin - [@kamilarici]([https://www.linkedin.com/in/kamil-arici?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7uRMaE%2FdTHeS9fFVNiCjDw%3D%3D)
+- Githup - [@kamilarici]([https://github.com/AliDurul](https://github.com/kamilarici))
 
 ## Feedback and Collaboration
 I value your feedback and suggestions. If you have any comments, questions, or ideas for improvement regarding this project or any of my other projects, please don't hesitate to reach out. I'm always open to collaboration and welcome the opportunity to work on exciting projects together.
